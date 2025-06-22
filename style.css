@@ -1,0 +1,55 @@
+p {
+  color: white;
+  background-color: blue;
+  font-size: 30px;
+  border-radius: 5%;
+  max-width: 50%;
+  padding: 7px;
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  right: 50%;
+}
+
+.start button {
+  background-color: black;
+  color: white;
+  border-radius: 20%;
+  padding: 5px;
+  position: absolute;
+  top: 10%;
+  right: 50%;
+}
+
+.invoer {
+  padding: 5px;
+  background-color: black;
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  right: 45%;
+}
+
+.invoer button {
+  background-color: black;
+  color: white;
+}
+
+.invoer input {
+  background-color: black;
+  color: white;
+}
+
+.tijd {
+  position: absolute;
+  top: 20%;
+  right: 47%;
+}
+
+.lengte {
+  position: absolute;
+  top: 25%;
+  right: 47%;
+
+}
+

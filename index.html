@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>rekenen</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="getal"><p id="getal">0</p></div>
+
+  <div class="start"><button id="start">start</button></div>
+  
+  <div class="lengte">
+  <label for="lengte">lengte:</label>
+  <input type="range" id="lengte" min="1" max="20" value="5">
+  <span id="waarde_lengte">5</span>
+  </div>
+
+  <div class="tijd">
+  <label for="tijd">tijd:</label>
+  <input type="range" id="tijd" min="1" max="5" value="1">
+  <span id="waarde_tijd">1</span>
+  </div>
+
+  <div class="invoer">
+  <input type="text" id="invoer" placeholder="voer een getal in">
+  <button id="invoer_button">voer in</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
